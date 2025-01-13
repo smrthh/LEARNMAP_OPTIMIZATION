@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Creative Study Manager Website</title>
+    
+    <!-- 
+        - FAVICON
+    -->
+    <link rel="shortcut icon" href="./assets/undraw_mathematics_hc2c.svg" type="image/svg+xml">
+
+    <!-- 
+        - CUSTOM CSS LINK
+    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 
+        - GOOGLE FONTS
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+     rel="stylesheet">
+
+     <!-- 
+        - PRELOAD IMAGES
+    -->
+    <link rel="preload" as="image"  href="assets/images/hero-banner.jpg">
+
+        <!-- 
+    - JQUERY CDN
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- 
+    - SCROLL REVEAL JS
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- 
+    - EMAIL JS CDN
+     -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+     (function(){
+      emailjs.init("9z4uF5cN3vNOB9JDv");
+     })();
+     </script>
+
+     <!-- SCRIPTING -->
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+</body>
+
+<!-- 
+PRELOADER
+-->
+<div class="preloader" data-preloader >
+    <div class="preloader-inner">
+        <img src="./assets/undraw_mathematics_hc2c.svg" alt="preloader" width="50" height="50" class="img">
+    </div>
+</div>
+
+
+<!-- 
+    - ## HEADER
+-->
+
+<header class="header" data-header > 
+    <div class="container">
+
+
+        <a href="#" class="logo"> <s>L</s>earn<s>M</s>ap</a>
+        <style>
+            .logo s{
+                color: hsl(10, 100%, 57%);
+            }
+        </style>
+
+        <nav class="navbar"  data-navbar >
+            <ul class="navbar-list">
+
+
+         <li>
+            <a href="#home" class="navbar-link" data-nav-link >Dashboard</a>
+         </li>
+
+         <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link > Daily Planned </a>
+         </li>
+
+         <li>
+            <a href="#skills" class="navbar-link" data-nav-link > Progress Tracer </a>
+         </li>
+         
+         <li>
+            <a href="#timeline" class="navbar-link link-hide-pc" data-nav-link > Task Completeds </a>
+         </li>
+        
+         <li>
+            <a href="#pricing" class="navbar-link" data-nav-link >PDF'S Hub</a>
+         </li>
+        
+         <li>
+            <a href="#news" class="navbar-link" data-nav-link > Links & Resources </a>
+         </li>
+
+         <li>
+            <a href="#timetable" class="navbar-link" data-nav-link >Ideal Timetable </a>
+         </li>
+
+         
+         <li>
+            <a href="#Exam-A" class="navbar-link link-hide-pc" data-nav-link >Exam Analysation </a>
+         </li>
+         
+         <li>
+            <a href="#contact" class="navbar-link" data-nav-link > Report Mailing </a>
+         </li>
+
+
+
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn " aria-label="toggle menu" data-nav-toggler >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+
+    </div>
+</header>
+
+
+
+<!-- =========
+- ## MAIN FOR ALL SECTIONS 
+======== -->  
+
+<main>
+    <article>
+        <!-- 
+        - # HERO
+
+        -->
+        <section class="section hero" id="home" aria-label="hero">
+
+            <div class="container">
+  
+                <figure class="hero-banner img-holder has-before" style="--width : 640 ; --height : 840 ; ">
+                    <img src="assets/images/Growth.jpg" alt="samarth HOLKAR" class="img-cover" width="640" height="840">
+                </figure>
+
+
+              <div class="hero-content">
+
+                <p class="section-subtitle"> Dashboard </p>
+
+                <h1 class="h1 hero-title"> DAILY CHECKLIST </h1>
+
+                <ul class="hero-list">
+
+                    <li>
+                        <a href="#portfolio" class="list-link">
+                            <span class="span"> Daily Study Schedule </span>
+
+                            <ion-icon name="airplane-outline"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#timeline" class="list-link">
+                            <span class="span"> Daily Task Completed </span>
+
+                            <ion-icon name="airplane-outline"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#news" class="list-link">
+                            <span class="span"> Resources </span>
+
+                            <ion-icon name="airplane-outline"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="exp-list">
+
+                    
+                    <li class="list-item">
+                        <strong class="strong">0+</strong>
+
+                        <span class="span">
+                            Days Counted 
+                        </span>
+                    </li>
+
+                    <li class="list-item">
+                        <strong class="strong">0+</strong>
+
+                        <span class="span">
+                           Days Ideal
+                        </span>
+                    </li>
+
+                </ul>
+ 
+              <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+                <ion-icon name="chevron-down-circle-outline"></ion-icon>
+              </a>
+
+
+              </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- 
+        - # SYLLABUS FILE
+        -->
+        <section class="section timeline " id="Exam-A" aria-label="timeline" style="background-image: url(assets/images/black-dog.jpg); background-position: 100%; background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+
+                <p class="section-subtitle">Syllabus Of All Subject </p>
+
+                <h2 class="h2 section-title" style="color: #FFF;">Subjects & Topics</h2>
+
+                <a href="./syllabus.html" class="syllabus-btn" > 
+                    View Syllabus
+                </a>
+            </div>
+        </section>
+
+
+        <!-- 
+        - # PORTFOLIO
+
+        -->
+        <section class="section portfolio" id="portfolio" aria-label="portfolio">
+            <div class="container">
+
+                <p class="section-subtitle">Daily Planned</p>
+
+                <h2 class="h2 section-title">Study Schedule</h2>
+
+                <ul class="has-scrollbar">
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-1.jpg" alt="Magic Art" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Magic Art</h3>
+
+                                 <p class="card-text">Vimeo</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-2.jpg" alt="Bonna Green" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Bonna Green</h3>
+
+                                 <p class="card-text">Youtube</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-3.jpg" alt="Leo Dandora" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Leo Dandora</h3>
+
+                                 <p class="card-text">Soundcloud</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-4.jpg" alt="Folio Grasia" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Folio Grasia</h3>
+
+                                 <p class="card-text">Detail</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-5.jpg" alt="Viva Mercury" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Viva Mercury</h3>
+
+                                 <p class="card-text">Image</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-6.jpg" alt="Santa Onera" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                                 <h3 class="h3 card-title">Santa Onera</h3>
+
+                                 <p class="card-text">Image</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </section>
+
+
+        <!-- 
+        - # SKILLS
+
+        -->
+        <section class="section skills has-before" id="skills" aria-label="skills" style="background-image: url(assets/images/skills-bg.png);">
+        <div class="container">
+
+            <div class="skills-content">
+
+
+                <p class="section-subtitle">Progress Tracer</p>
+
+                <h2 class="h2 section-title">All Aspects </h2>
+
+                <p class="section-text">Tracing the Study Progress on the basis of daily study Task and Task Completeds Also Syllabus , Topics Covered and overall progress of Individual Subject. 
+                </p> 
+
+                <div class="subject-topics ">
+                    <p class="subject-desc section-text"> 
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> QUANT - </b> <br>
+                      <strong>SPEED MATHS</strong> - Simplification , Approximation & Number - Series. <br> Weightage - (10%)<br> <br>
+
+                      <strong>ARITHMETIC</strong> - Percentage, Profit and Loss, Ratio and Proportion, Average, Mixtures and Alligations, Time and Work, Time, Speed and Distance, Simple and Compound Interest, Problems on Ages, Partnerships, Mensuration. <br> Weightage - (50%)<br> <br>
+
+                      <strong>DI </strong> - Tables, Line Graphs, Bar Graphs, Pie Charts, Caselets, Missing DI, Mixed Graphs, Cumulative Data, and Arithmetic-based DI. <br> Weightage - (40%)<br><br>
+
+                        <b style="color: hsl(10, 100%, 57%);"> REASONING - </b>
+                    </p>
+                </div>
+
+                <ul class="skills-list">
+
+
+                    <li class="skills-item">
+                     <div class="wrapper">
+                        <h3 class="skills-title">Quantative Aptitude</h3>
+
+                        <data class="skill-value" value="10%">10%</data>
+                    </div>
+
+                        <div class="progress-box">
+                            <div class="progress" style="width: 10%;"></div>
+                        </div>
+
+    
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> Reasoning Ability </h3>
+   
+                           <data class="skill-value" value="0%">0%</data>
+                        </div>
+
+                           <div class="progress-box">
+                               <div class="progress" style="width: 0%;"></div>
+                           </div>
+   
+                        
+                       </li>
+
+                       
+                    <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> English </h3>
+   
+                           <data class="skill-value"  value="0%" >0%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 0% ;" ></div>
+                           </div>
+   
+                       </li>
+
+                       <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> General Awarness </h3>
+   
+                           <data class="skill-value"  value="0%" >0%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 0% ;" ></div>
+                           </div>
+   
+                       </li>
+
+
+                </ul>
+
+
+
+            </div>
+
+            <div class="skills-banner has-before">
+
+            </div>
+
+         </div>
+        </section>
+
+         <!-- 
+        - # TIMELINE
+
+        -->
+        <section class="section timeline" id="timeline" aria-label="timeline">
+            <div class="container">
+
+                <p class="section-subtitle">Syllabus Completion  </p>
+
+                <h2 class="h2 section-title">Daily Summarised</h2>
+
+                <ul class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h3 class="item-period" style="display: flex; align-items: center; gap: 1rem;">10th Jan 2025 - Friaday
+                         <a href="#"><ion-icon name="checkmark-circle-outline" style="color: black; background: transparent; border-radius: 50%;"></ion-icon> 
+                         </a> 
+                        </h3>
+  
+                        <p class="item-title"> <b>1. Quants</b> - <br>
+                          Simplification 30 Sets , Number series - 50 Sets
+  
+                          
+                      </p>
+  
+                        <p class="item-title"> <b> 2. Reasoning</b> - <br>
+                         Puzzles Practised <br>
+                         Seating Arragment
+                      </p>
+  
+                        <p class="item-title"> <b>3. English</b> <br>
+                          Speed Maths Practised</p>
+  
+                        <p class="item-address" style="color:  hsl(0, 0%, 0%, 0.7);"> <strong>Status - Pending </strong></p>
+                      </li>
+
+                    <li class="timeline-item">
+
+                      <h3 class="item-period" style="display: flex; align-items: center; gap: 1rem;">10th Jan 2025 - Friaday
+                       <a href="#"><ion-icon name="checkmark-done-circle-outline" style="color: white; background: green; border-radius: 50%;"></ion-icon> 
+                       </a> 
+                      </h3>
+
+                      <p class="item-title"> <b>1. Quants</b> - <br>
+                        Simplification 30 Sets , Number series - 50 Sets
+
+                        
+                    </p>
+
+                      <p class="item-title"> <b> 2. Reasoning</b> - <br>
+                       Puzzles Practised <br>
+                       Seating Arragment
+                    </p>
+
+                      <p class="item-title"> <b>3. English</b> <br>
+                        Speed Maths Practised</p>
+
+                      <p class="item-address" style="color:  hsl(0, 0%, 0%, 0.7);"> <strong>Status - Done </strong></p>
+                    </li>
+                   
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- 
+        - # PRICING
+
+        -->
+        <section class="section pricing" id="pricing" aria-label="pricing">
+            <div class="container">
+
+               
+                <div class="pricing-content">
+
+                    <p class="section-subtitle">PDF'S</p>
+
+                    <h2 class="h2 section-title"> DOCUMENT STORATION</h2>
+
+                    <p class="section-text">For more than 20 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.
+                    </p>   
+              
+                </div>
+          
+
+                <ul class="pricing-list">
+
+                    <li>
+                        
+                        <div class="pricing-card">
+        
+                    <ion-icon name="document-text-outline"></ion-icon> 
+
+                   <h3 class="card-title">Quant Syllabus</h3>
+                          
+                <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>   
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                            <ion-icon name="document-text-outline"></ion-icon> 
+
+                   <h3 class="card-title">Reasoning Syllabus</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                       <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">English Syllabus</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                        <ion-icon name="document-text-outline"></ion-icon> 
+
+                   <h3 class="card-title">General Awarness Syllabus</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pricing-card">
+        
+                     <ion-icon name="document-text-outline"></ion-icon>
+
+                   <h3 class="card-title">PSD Design</h3>
+                          
+                   <a href="" download=""> <data class="card-price" value="$500"> <ion-icon name="download-outline"></ion-icon> </data> </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div> 
+        </section>
+
+
+        <!-- 
+        - # NEWS
+
+        -->
+        <section class="section news" id="news" aria-label="news">
+            <div class="container">
+
+              <p class="section-subtitle">Important stuff </p>
+
+              <h2 class="h2 section-title">LINKS AND RESOURCES</h2>
+
+              <ul class="has-scrollbar">
+
+                <li class="scrollbar-item">
+                    <div class="card news-card ">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/Main-img.jpg" alt="Code Gets New JavaScript Debugger" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="https://www.youtube.com/playlist?list=PLlPW9gqCVdTtAZ7FyDzlSUpZgUQj9YLbW" class="card-content" target="_blank">
+                            <ion-icon name="logo-youtube" style="transform: rotate(0deg);"></ion-icon>
+
+                             <time class="2022-09-02"> Simplification , Quadratic ,  Number Series </time>
+
+                             <h3 class="h3 card-title"> SPEED MATHS
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/Main-img.jpg" alt="Javalin Framework for Kotlin and Java Updated" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="logo-youtube" style="transform: rotate(0deg);"></ion-icon>
+
+                             <time class="2022-08-17">Percentage, Profit and Loss, Ratio and Proportion, Average, Mixtures and Alligations, Time and Work, Time, Speed and Distance, Simple and Compound Interest, Problems on Ages, Partnerships, Mensuration</time>
+
+                             <h3 class="h3 card-title"> ARITHMETIC
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/Main-img.jpg" alt="JavaScript Dominated Open Source in 2022" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="logo-youtube" style="transform: rotate(0deg);"></ion-icon>
+
+                             <time class="2022-07-05">
+                                Tables, Line Graphs, Bar Graphs, Pie Charts, Caselets, Missing DI, Mixed Graphs, Cumulative Data, and Arithmetic-based DI</time>
+
+                             <h3 class="h3 card-title"> Data Interpretation
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/blog-4.jpg" alt="Perfecto Tests Progressive Web Apps" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                             <time class="2022-04-22">April 22, 2022</time>
+
+                             <h3 class="h3 card-title">Perfecto Tests Progressive Web Apps
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                
+
+            </ul>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+        - # TIMETABLE
+        -->
+        <section class="section skills has-before" id="timetable" aria-label="skills" style=" background-image:url(assets/images/download\ \(7\).jpg);">
+            <div class="container">
+    
+                <div class="skills-content">
+    
+    
+                    <p class="section-subtitle">Timetable</p>
+    
+                    <h2 class="h2 section-title">Be the Ideal </h2>
+       
+                    <p class="section-text"> This is the <b style="color: #FF4824;">Daily Timetable</b> for Making the Day Ideal. 
+                        This is Static one but in case if the things not going on the way they should be added in the buffer zone.
+                    </p> 
+    
+                   <p class="section-text"> Hint : Next day should be planned before That day. Wake up at the morning Be fresh take breakfast and be ready then Arrive study place on 8 or before 8 AM.</p>
+                    <div class="subject-topics ">
+                        <p class="subject-desc section-text"> 
+
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌄 Morning 8 To 9 - </b> <br>
+                        <strong>1. ENGLISH - </strong> <br> Reading Newspaper OR Novel <br> (Never Skip Reading) <br> <i>Time - 1 Hrs.</i> <br><br>
+
+                          <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌄 Morning 9 To 11 - </b> <br>
+                          <strong>2. REASONING ABILITY - </strong> <br> Chaperwise Practise of Previous day class or lecture 40 To 50 Questions Sets. Remaining Que would be Pushed to Buffer Zone Time. <br> 
+                          <i>Time - 2 Hrs.</i> <br><br>
+    
+                        <b style="color: hsl(10, 100%, 57%);"> 🌄 Morning 11 To 1 -</b> <br>
+                        <strong>3. QUANTATIVE APTITUDE -</strong> <br> Chaperwise Practise of Previous day class or lecture 40 To 50 Questions Sets. Remaining Que would be Pushed to Buffer Zone Time. <br>
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: hsl(10, 100%, 57%);"> 🕑 Afternoon 1 To 2 -</b> <br>
+                        <strong>4. LUNCH BREAK 🍽️</strong><br> Take a lunch break & Burnout Prevention - I <br>
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🕑 Afternoon 2 To 4 - </b> <br>
+                        <strong>5. QUANT - </strong> <br> Attend Class , Lecture Or session So sleep Don't get over you Or keep yourself busy in DI solving.<br> 
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌆 Evening 4 To 6 - </b> <br>
+                        <strong>6. REASONING - </strong> <br> Attend Class , Lecture Or session So we can solve that Questions Tommorow Or Spending time on Puzzles. <br> 
+                        <i>Time - 2 Hrs.</i> <br><br>
+
+                        <b style="color: hsl(10, 100%, 57%);"> 🌆 Evening 6 To 6.30 -</b> <br>
+                        <strong>7. MINY CHAI BREAK ☕</strong><br> Take a Chai & Burnout Prevention - II <br>
+                        <i>Time - 1/2 Hrs.</i> <br><br>
+
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌆 Evening 6:30 To 7:30 - </b> <br>
+                        <strong>8. QUANT OR REASONING - </strong> <br>Devoting Time for Class , Lecture Or Session Or New concept Grabbing  <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 7:30 To 8:30 - </b> <br>
+                        <strong>9. RETURNING TO HOME 🏠 </strong> <br> Return To Home & Ready for Cope out On Next Determination. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 9 To 10 - </b> <br>
+                        <strong>10. ENGLISH - </strong> <br> Each day should be divided into Grammer & Vocabulary. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        
+                        <b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;"> 🌃 Night 10 To 11 - </b> <br>
+                        <strong>11. BUFFER ZONE - </strong> <br> This time specially Scheduled for   Remaining Activities , Questions or anything that wasn't done Or Giving the Mock Tests whether Sectional or Full. <br> 
+                        <i>Time - 1 Hrs.</i> <br><br>
+
+                        <u><b style="color: hsl(10, 100%, 57%); margin-bottom: 10px; font-weight: 900;letter-spacing: 1px;">END OF THE DAY ❤️‍🔥</b></u>
+
+
+                        </p>
+                    </div>
+
+    
+    
+    
+                </div>
+    
+                
+            <div class="has-before timetable-banner">
+
+            </div>
+    
+             </div>
+        </section>
+
+        <!-- 
+        - # EXAM ANALYSATION
+        -->
+        <section class="section timeline" id="Exam-A" aria-label="timeline" style="background-color: #FFF5F5;">
+            <div class="container">
+
+                <p class="section-subtitle">Analyzation  </p>
+
+                <h2 class="h2 section-title">Exams & Score</h2>
+
+                <ul class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h3 class="item-period" style="display: flex; align-items: center; gap: 1rem;"> 
+                          Exams Now & Upcoming
+                         <a href="#"><ion-icon name="happy-outline" style="color: rgb(255, 255, 255); background: #FF4824; border-radius: 50%;"></ion-icon> 
+                         </a> 
+                        </h3>
+  
+                        <p class="item-title"> <b>1. SBI CLERK 2024-25 </b> <br>
+                          Vaccancies Upto 19000 Form filling Date - Dec 23 To Jan 7th 2025 
+                          Maharashtra - 1950 <br>
+                          OBC - 450 
+                          
+                      </p>
+  
+                      </li>
+
+                    <li class="timeline-item">
+
+                      <h3 class="item-period" style="display: flex; align-items: center; gap: 1rem;">
+                        Exam Score Coming Soon...
+                       <a href="#"><ion-icon name="sync-outline" style="color: #FFF; background: #FF4824; border-radius: 50%;"></ion-icon> 
+                       </a> 
+                      </h3>
+
+                      <p class="item-title"> <b>Exam Name</b> - <br>
+                        Date of Exam - <br>
+                        Subject -   <br>
+                        Attempt -   <br>
+                        Accuracy -  <br>
+                        Marks Obtained -  <br>
+                        ScoreCard - <a href="#" style="color: blue;">Tap To See</a> 
+                    </p>
+
+                    </li>
+
+                    
+                    <li class="timeline-item">
+
+                        <h3 class="item-period" style="display: flex; align-items: center; gap: 1rem;">
+                          Mocks Analysis Coming Soon...
+                         <a href="#"><ion-icon name="stopwatch-outline" style="color: #FFF; background: #FF4824; border-radius: 50%;"></ion-icon> 
+                         </a> 
+                        </h3>
+  
+                        <p class="item-title"> <b>Mock Name</b> - <br>
+                          Date - <br>
+                          Subject -   <br>
+                          Attempt -   <br>
+                          Accuracy -  <br>
+                          Marks Obtained -  <br>
+                          ScoreCard - <a href="#" style="color: blue;">Tap To See</a> 
+                      </p>
+  
+                      </li>
+                     
+                   
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- 
+        - # CONTACT
+
+        -->
+        <section class="section contact" id="contact" aria-label="contact">
+            <div class="container">
+
+                <div class="contact-content">
+
+              <p class="section-subtitle"> Daily Report Mail</p>
+
+              <h2 class="h2 section-title">What i Did TODAY</h2>
+
+              <p class="section-text">Daily mailing of the Daily planned study schedule & Syllabus completion of daily summarised and even what are the new resources added and should be added in the website.
+            </p>
+
+            <ul class="contact-list">
+
+                <li class="contact-item">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <address class="contact-link">
+                        Pune 
+                    </address>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="heart-circle-outline"></ion-icon>
+
+                 <a  href="tel:+91 9307291628" class="contact-link"> Call Developer - Samarth Holkar </a>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                    <a href="mailto:samarthholkar700@gmail.com" class="contact-link">
+                        Mail Me Personally ❤️‍🔥
+                    </a>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="mail-unread-outline"></ion-icon>
+
+                    <a href="mailto:learnmap.sam@gmail.com" class="contact-link">
+                     Mail For Files & Documents
+                    </a>
+                </li>
+
+                <!-- <li class="contact-item">
+                    <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+
+                    <a href="#" class="contact-link">
+                     Soon
+                    </a>
+                </li> -->
+
+
+
+
+            </ul>
+
+                </div>
+
+                <form id="myForm" action="upload.php" class="contact-form" enctype="multipart/form-data">
+
+                <input type="text" name="name"  id="name" aria-label="name" class="input-field" placeholder="Date" required>
+
+                <input type="email" name="email_address" id="email" class="input-field" aria-label="email" placeholder="Email" required>
+
+                <textarea name="message" id="message" aria-label="message" class="input-field" placeholder="Changes Needed Today... " required ></textarea>
+
+                <!-- <input type="file" id="fileUpload" name="fileUpload" class="input-field" placeholder="select Image" accept="image/*" required> -->
+
+                <button type="submit" class="submit-btn" onclick="sendMail()">
+                    <span class="span">Submit</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+                </button>
+
+
+
+
+                </form>
+
+                <div class="thank-you-message" id="thank-you-message" style="display: none;">
+                    thanks
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 
+        - # FOOTER
+
+        -->
+        <footer class="footer">
+            <div class="container">
+
+                <p class="copyright">&copy; 2025. All rights reserved & Maintained by 
+                    <a href="#"class="copyright-link">blacksmrth</a></p>
+
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://github.com/smrthh" class="social-link"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.instagram.com/smrth.3?r=nametag" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="#" class="social-link"><ion-icon name="logo-dribbble"></ion-icon></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </footer>
+
+
+    </article>
+</main>
+
+
+
+    <!-- 
+        - CUSTOM JS LINKS
+    -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- 
+        - ION ICON LINK
+    -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+</script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
